@@ -16,7 +16,6 @@ class LandingPage: AppCompatActivity() {
         val next = findViewById<Button>(R.id.next)
 
         // Request User To Permit Location
-
             val locationPermissionRequest = registerForActivityResult(
                 ActivityResultContracts.RequestMultiplePermissions()
             ) { permissions ->

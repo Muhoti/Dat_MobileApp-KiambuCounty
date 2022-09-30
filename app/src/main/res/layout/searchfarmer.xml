@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/login_bg2"
     xmlns:app="http://schemas.android.com/apk/res-auto" >
 
     <LinearLayout
@@ -50,7 +50,7 @@
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:text="@string/enter_farmer_s_national_id"
-                android:textColor="@color/green"
+                android:textColor="@color/dullblue"
                 android:textSize="14sp" />
 
             <LinearLayout
@@ -58,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/input_green_border"
+                android:background="@drawable/input_blue_border"
                 android:orientation="horizontal">
 
                 <EditText
@@ -72,8 +72,8 @@
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:inputType="number"
                     android:textColor="@color/black"
-                    android:textColorHighlight="@color/orange"
-                    android:textColorHint="@color/green"
+                    android:textColorHighlight="@color/dullred"
+                    android:textColorHint="@color/dullblue"
                     android:textStyle="normal" />
 
             </LinearLayout>
@@ -86,13 +86,13 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="24dp"
-            android:background="@drawable/orange_button"
+            android:background="@drawable/dark_blue_button"
             android:text="Search"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textStyle="normal"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/dark_green"
+            android:textColor="@color/dullred"
             android:layout_marginBottom="24dp" />
     </LinearLayout>
     <ProgressBar

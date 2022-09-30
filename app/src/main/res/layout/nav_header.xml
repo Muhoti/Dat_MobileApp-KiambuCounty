@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Data Collect App"
-        android:textColor="@color/orange"
+        android:textColor="@color/dullred"
         android:textSize="16sp"
         android:layout_marginStart="24dp"
         android:gravity="left"

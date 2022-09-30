@@ -40,8 +40,9 @@ class FarmerAddress: AppCompatActivity() {
     var lng: Double = 0.0
     var acc: Float = 0f
 
-    val ip_URL = "http://185.215.180.181:7004/map/"
+    val ip_URL = "http://185.215.180.181:7034/map/"
 //    val ip_URL = "http://demo.osl.co.ke:444/"
+
     object AndroidJSInterface {
         @JavascriptInterface
         fun onClicked() {

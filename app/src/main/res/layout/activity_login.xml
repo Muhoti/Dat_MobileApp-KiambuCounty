@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/login_bg">
+    android:background="@drawable/kiambu_bg">
 
 
     <ScrollView
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Welcome to"
-                android:textColor="@color/orange"
+                android:textColor="@color/dark_white"
                 android:textSize="18sp"
                 android:layout_marginBottom="32dp"
                 android:layout_marginLeft="24dp"
@@ -40,7 +40,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toTopOf="@id/app_name"
                 android:text="Kiambu \n County"
-                android:textColor="@color/white"
+                android:textColor="@color/red"
                 android:textSize="30sp"
                 android:gravity="center"
                 android:layout_marginBottom="32dp"/>
@@ -51,9 +51,9 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/county"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:text="@string/app_name"
+                android:text="@string/title"
                 android:textSize="20sp"
-                android:textColor="@color/orange"
+                android:textColor="@color/dark_white"
                 android:gravity="center"
                 />
 
@@ -66,8 +66,8 @@
                 android:text="Login"
                 android:textStyle="bold"
                 android:textSize="24sp"
-                android:textColor="@color/white"
-                android:background="@color/dark_green"
+                android:textColor="@color/red"
+                android:background="@color/dullblue"
                 android:gravity="center"
                 android:padding="10dp"
                 android:layout_marginTop="24dp"
@@ -192,7 +192,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Click Here"
-                    android:textColor="@color/orange"
+                    android:textColor="@color/dullred"
                     android:textSize="12sp"
                     android:gravity="center"
                     />
@@ -203,13 +203,13 @@
                 android:id="@+id/submit"
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
-                android:background="@drawable/dark_green_button"
+                android:background="@drawable/dark_blue_button"
                 android:paddingStart="30dp"
                 android:paddingRight="30dp"
                 android:text="Login"
                 android:textSize="14sp"
                 android:textAllCaps="false"
-                android:textColor="@color/light_orange"
+                android:textColor="@color/dullred"
                 android:layout_gravity="center"
                 android:layout_marginBottom="24dp"
                 />
@@ -222,7 +222,7 @@
                 android:layout_margin="24dp"
                 android:gravity="center"
                 android:textSize="11sp"
-                android:textColor="@color/orange"
+                android:textColor="@color/dullred"
                 android:text="Accounts are created by the system administrator"
                 />
         </LinearLayout>

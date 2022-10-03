@@ -28,8 +28,8 @@
                 android:hint="Group Name"
                 android:gravity="left"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/translucent_black"
-                android:textColorHint="@color/translucent_black"
+                android:textColor="@color/dullblue"
+                android:textColorHint="@color/dullblue"
                 android:textStyle="normal" />
 
             <TextView
@@ -40,8 +40,8 @@
                 android:hint="Group Type"
                 android:gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="@color/translucent_black"
-                android:textColorHint="@color/translucent_black"
+                android:textColor="@color/dullblue"
+                android:textColorHint="@color/dullblue"
                 android:textStyle="normal" />
         </LinearLayout>
 

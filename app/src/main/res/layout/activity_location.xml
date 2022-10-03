@@ -288,16 +288,15 @@
                     android:id="@+id/next"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="24dp"
                     android:background="@drawable/dark_blue_button"
                     android:paddingStart="30dp"
                     android:paddingRight="30dp"
                     android:text="Submit"
-                    android:textSize="14sp"
                     android:textAllCaps="false"
-                    android:textColor="@color/light_orange"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="24dp"
-                    />
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 

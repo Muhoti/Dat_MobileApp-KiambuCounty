@@ -13,7 +13,7 @@
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/green"
+        android:background="@color/dullblue"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme" >
 
@@ -25,7 +25,7 @@
         android:paddingStart="24dp"
         android:paddingEnd="24dp"
         android:orientation="horizontal"
-        android:background="@color/green" >
+        android:background="@color/dullblue" >
 
         <TextView
             android:id="@+id/appbar_text"
@@ -70,7 +70,7 @@
                     android:layout_marginStart="24dp"
                     android:layout_marginEnd="24dp"
                     android:text="Update Produce"
-                    android:textColor="@color/dark_green"
+                    android:textColor="@color/dullblue"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:layout_marginBottom="20dp"
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
                     android:text="All fields marked with * are required"
-                    android:textColor="@color/black"
+                    android:textColor="@color/dullblue"
                     android:textSize="10dp" />
 
                 <TextView
@@ -94,7 +94,7 @@
                     android:layout_marginEnd="24dp"
                     android:textSize="12sp"
                     android:text=""
-                    android:textColor="@color/orange"/>
+                    android:textColor="@color/red"/>
 
                 <TextView
                     android:layout_width="match_parent"
@@ -141,8 +141,8 @@
                     android:layout_marginEnd="24dp"
                     android:inputType="numberDecimal"
                     android:hint="Amount Harvested"
-                    android:textColorHint="@color/translucent_dark_green"
-                    android:textColor="@color/dark_green"
+                    android:textColorHint="@color/dullblue"
+                    android:textColor="@color/dullblue"
                     android:textSize="12sp"
                     android:background="@drawable/input_blue_border"
                     android:padding="10dp"
@@ -171,7 +171,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginEnd="24dp"
-                        android:background="@color/green"
+                        android:background="@color/dullblue"
                         android:layout_marginBottom="10dp"
                         />
                 <!--    Text input end-->
@@ -203,8 +203,8 @@
                         android:layout_height="wrap_content"
                         android:entries="@array/farmingPeriod"
                         android:spinnerMode="dropdown"
-                        android:textColor="@color/dark_green"
-                        android:backgroundTint="@color/dark_green"
+                        android:textColor="@color/dullblue"
+                        android:backgroundTint="@color/dullblue"
                         android:padding="2dp"
                         />
 
@@ -222,7 +222,7 @@
                     android:text="Update"
                     android:textSize="14sp"
                     android:textAllCaps="false"
-                    android:textColor="@color/light_orange"
+                    android:textColor="@color/white"
                     android:layout_gravity="center"
                     android:layout_marginBottom="24dp"
                     />

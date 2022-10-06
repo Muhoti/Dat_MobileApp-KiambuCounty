@@ -339,8 +339,13 @@ class FarmerAddress: AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            if(acc.toString() <= "20"){
+            if(acc.toString() >= "25"){
                 error.text = "Too low accuracy to display correct location. Refresh map to try again!!"
+                return@setOnClickListener
+            }
+
+            if(lat == 0.0 && lng == 0.0){
+                error.text = "Wrong location detected. Please restart app and allow location permissions!!"
                 return@setOnClickListener
             }
 

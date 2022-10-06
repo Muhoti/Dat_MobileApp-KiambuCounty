@@ -5,6 +5,7 @@
         <item>Village2</item>
         <item>Village3</item>
     </string-array>
+
     <string-array name="ward" >
         <item>Biashara</item>
         <item>Bibirioni</item>
@@ -64,6 +65,7 @@
         <item>Township</item>
         <item>Uthiru</item>
     </string-array>
+
     <string-array name="subCounty" >
         <item>Gatundu North</item>
         <item>Gatundu South</item>
@@ -78,10 +80,12 @@
         <item>Thika Town</item>
         <item>Ruiru</item>
     </string-array>
+
     <string-array name="gender">
         <item>Male</item>
         <item>Female</item>
     </string-array>
+
     <string-array name="ages" >
         <item>18-35 Years</item>
         <item>35-65 Years</item>
@@ -121,6 +125,5 @@
         <item>Weekly</item>
         <item>Daily</item>
     </string-array>
-
 
 </resources>
